@@ -10,7 +10,7 @@ public class Wallnut : Plant
         "Wallnut",
         maxHP: 4000,
         sunCost: 50,
-        rechargeTime: 3f //30f
+        rechargeTime: 30f
     );
 
 
