@@ -149,14 +149,14 @@ public sealed class World_Day : World
             case 2: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.CherryBomb };
             case 3: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.Wallnut };
 
-            case 4: return new LevelReward { rewardType = RewardType.Shovel };
+            case 4: return new LevelReward { rewardType = RewardType.Shovel, displayName = "Shovel", description = "Use it to dig up plants"};
 
             case 5: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.PotatoMine };
             case 6: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.Snowpea };
             case 7: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.Chomper };
             case 8: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.Repeater };
 
-            case 9: return new LevelReward { rewardType = RewardType.Note1 };
+            case 9: return new LevelReward { rewardType = RewardType.Note1, description= "Hello, we are about to launch an all-out attack on your house. Sincerely, the Zombies", displayName = "Day Zombie note" };
 
             case 10: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.Puffshroom };
         }
