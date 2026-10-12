@@ -153,6 +153,7 @@ public class GameManager : MonoBehaviour
     private void TriggerEndofGame()
     {
         Debug.Log("Game Over, you win!");
+        Application.Quit();
     }
     
     private IEnumerator LoadScene()
@@ -349,6 +350,7 @@ public class GameManager : MonoBehaviour
     public void Lose(Zombie zombie)
     {
         Debug.LogError($"The zombies ate your brains! specifically a {zombie.Stats.DisplayName} zombie");
+        Application.Quit();
     }
 
     public bool AcceptHotbar(PlantType[] hotbarActors)
