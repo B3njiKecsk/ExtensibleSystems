@@ -9,7 +9,7 @@ public class Hypnoshroom : Mushroom
     public static readonly PlantStats stats = new PlantStats(
         displayName: "Hypno-shroom",
         sunCost: 75,
-        rechargeTime: 1f,//Recharge.Slow,
+        rechargeTime: Recharge.Slow,
         maxHP: 300
         );
 
