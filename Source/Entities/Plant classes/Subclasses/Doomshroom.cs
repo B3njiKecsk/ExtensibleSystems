@@ -13,7 +13,7 @@ public class Doomshroom : Mushroom
         tags: PlantTag.Mushroom | PlantTag.Instant,
         attackDamage: 1800,
         maxHP: 300,
-        rechargeTime: 3f,//Recharge.VerySlow,
+        rechargeTime: Recharge.VerySlow,
         timeBetweenTicks: 1f
         );
 
