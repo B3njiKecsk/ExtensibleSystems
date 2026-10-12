@@ -1,4 +1,6 @@
 # Build
+[download latest build here](https://github.com/B3njiKecsk/ExtensibleSystems/releases/download/v1.0.0/ExtensibleSystemsBuild-v1.0.0.zip)
+
 To run, execute [PvZExtended.exe](PvZExtended.exe)
 
 ## Build specific notes
