@@ -158,16 +158,16 @@ public class World_Night : World
             case 2: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.Fumeshroom };
             case 3: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.Gravebuster };
 
-            case 4: return new LevelReward { rewardType = RewardType.Almanac };
+            case 4: return new LevelReward { rewardType = RewardType.Almanac, displayName = "Almanac"};
 
             case 5: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.Hypnoshroom };
             case 6: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.Scaredyshroom };
             case 7: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.Iceshroom };
             case 8: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.Doomshroom };
 
-            case 9: return new LevelReward { rewardType = RewardType.Note2 };
+            case 9: return new LevelReward { rewardType = RewardType.Note2, displayName = "Night Zombie Note", description = "Hello,\n we would like to visit for a midnight snack. How does ice cream and brains sound? \nSincerely, \nthe Zombies" };
 
-            case 10: return new LevelReward { rewardType = RewardType.Note3 };
+            case 10: return new LevelReward { rewardType = RewardType.Note3 , displayName = "DevNote", description = "You have defeated all the zombies in this version of the game! \nThanks for playing"};
             //case 10: return new LevelReward { rewardType = RewardType.SeedPacket, rewardPlant = PlantType.Lilypad };
         }
         throw new InvalidOperationException();
