@@ -17,11 +17,4 @@ public sealed class Pea : Projectile
         base.MovementBehaviour(distance);
         MoveRight(distance);
     }
-    Entity pierced = null;
-    protected override void OnHit(Entity target)
-    {
-        pierced ??= target;
-        if(target != pierced)
-            base.OnHit(target);
-    }
 }
