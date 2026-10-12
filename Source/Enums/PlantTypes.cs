@@ -1,0 +1,21 @@
+public enum PlantType
+{
+    NullPlant,
+    Peashooter,
+    Sunflower,
+    CherryBomb,
+    Wallnut,
+    PotatoMine,
+    Snowpea,
+    Chomper,
+    Repeater,
+    Puffshroom,
+    Sunshroom,
+    Fumeshroom,
+    Gravebuster,
+    Hypnoshroom,
+    Scaredyshroom,
+    Iceshroom,
+    Doomshroom,
+    //Lilypad,
+}
