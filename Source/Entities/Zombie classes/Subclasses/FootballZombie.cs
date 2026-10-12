@@ -14,7 +14,7 @@ public class FootballZombie : Zombie, IMagnetizeable
     public static readonly ZombieStats stats = new ZombieStats(
         displayName: "Football Zombie",
         maxHP: 200,
-        speed: 2.5f,
+        speed: 1 / 2.5f,
         wavePointCost: 7,
         waveWeight: 2000
         );
