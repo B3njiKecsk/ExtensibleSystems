@@ -1,8 +1,10 @@
 # Extensible Systems
 
-This repository contains selected source code from my gameplay systems and technical design project.
+This repository contains selected source code from my gameplay systems and technical design project, as well as an exported build of the Unity project.
 
 The code accompanies the architectural case study in my portfolio and provides implementation examples for the design decisions discussed there.
+
+The latest release of the build is available [here](https://github.com/B3njiKecsk/ExtensibleSystems/releases).
 
 ## Where to Start
 
