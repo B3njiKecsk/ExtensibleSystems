@@ -14,7 +14,7 @@ public sealed class Peashooter : Plant
         rechargeTime: Plant.Recharge.Fast,
         maxHP: Plant.Toughness.Normal,
         attackDamage: 20,
-        timeBetweenTicks: 0.25f//1.425f
+        timeBetweenTicks: 1.425f
     );
 
 
