@@ -2,6 +2,8 @@
 
 This repository contains selected source code from my gameplay systems and technical design project, as well as an exported build of the Unity project.
 
+[The portfolio page](https://www.benjaminruff.com) explains the motivation behind these systems, the trade-offs involved, and the areas I would redesign in a theoretical second iteration.
+
 The code accompanies the architectural case study in my portfolio and provides implementation examples for the design decisions discussed there.
 
 The latest release of the build is available [here](https://github.com/B3njiKecsk/ExtensibleSystems/releases).
@@ -16,4 +18,4 @@ The latest release of the build is available [here](https://github.com/B3njiKecs
 - **[TileData.cs](Source/TileData.cs)** — Tile state, plant placement, and zombie movement notifications.
 - **[Equipment.cs](Source/Equipment/Equipment.cs)** — Composition-based equipment and damage handling.
 
-[The portfolio page](https://www.benjaminruff.com) explains the motivation behind these systems, the trade-offs involved, and the areas I would redesign in a theoretical second iteration.
+
